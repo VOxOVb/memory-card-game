@@ -1,0 +1,36 @@
+.loading {
+    text-align: center;
+    h1 {
+        font-weight: bold;
+        transition: transform .3s;
+        margin-bottom: 48px;
+    }
+    p {
+        letter-spacing: 1.1px;
+        margin-bottom: 48px;
+        span {
+            margin-right: 2rem;
+        }
+        button {
+            max-width: 96px;
+            padding: 6px 16px;
+            margin: 0 16px;
+            &.active {
+                border: 1px solid #646cff;
+            }
+            &:focus:not(:focus-visible) {
+                outline: none;
+            }
+            &:hover {
+                border: 1px solid #646cff83;
+            }
+        }
+    }
+}
+.start {
+    h1 {
+        transform: scale(.5);
+        transition: transform .3s;
+        margin-bottom: 0;
+    }
+}

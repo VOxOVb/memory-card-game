@@ -1,0 +1,18 @@
+.cardContainer {
+  display: grid;
+  gap: 12px;
+  max-height: 80vh;
+  aspect-ratio: 1 / 1;
+}
+.easy {
+  grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+  /* & > div {
+    width: 50px;
+  } */
+}
+.medium {
+  grid-template: repeat(6, 1fr) / repeat(6, 1fr);
+}
+.hard {
+  grid-template: repeat(8, 1fr) / repeat(8, 1fr);
+}

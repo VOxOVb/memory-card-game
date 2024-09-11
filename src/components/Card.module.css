@@ -1,0 +1,10 @@
+.card {
+  background-color: rgb(76, 160, 160);
+  cursor: pointer;
+  & > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
